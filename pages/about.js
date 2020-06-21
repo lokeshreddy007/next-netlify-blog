@@ -4,29 +4,25 @@ const About = ({ title, description, ...props }) => {
   return (
     <>
       <Layout pageTitle={`${title} | About`} description={description}>
-        <h1 className="title">Welcome to My Blog!</h1>
-
-        <p className="description">
-          This is a simple blog built with Next, easily deployable on{" "}
-          <a href="https://url.netlify.com/r1j6ybSYU">Netlify</a>.
-        </p>
-
-        <p>
-          You can check out the{" "}
-          <a href="https://github.com/lokeshreddy007/next-netlify-blog">
-            repo here.
-          </a>{" "}
-          If you'd like to build it yourself,{" "}
-          <a href="https://url.netlify.com/ByVW0bCF8">
-            here is a tutorial on how to do so
-          </a>
-          !
-        </p>
-
-        <p>
-          This project includes a basic layout and header, base styles, dynamic
-          routing with getStaticPaths, and posts saved as Markdown.
-        </p>
+        <div className="container">
+          <div className="jumbotron bg-dark text-white">
+            <blockquote className="blockquote text-center">
+              <h1 className="display-4 mb-0">Lokesh Reddy</h1>
+              <footer className="blockquote-footer">Software Engineer</footer>
+            </blockquote>
+            <p className="lead">
+              Developing robust code for high volume business. An Enthusiastic
+              team player with deep creative thinking, addicted to learn new
+              technology and build things which can help other people.
+            </p>
+            <hr className="my-4"></hr>
+            <p className="lead">
+              <a className="btn btn-primary" href="#" role="button">
+                Learn more
+              </a>
+            </p>
+          </div>
+        </div>
       </Layout>
     </>
   );

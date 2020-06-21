@@ -16,16 +16,8 @@ If you'd like to write a new blog post, write it in Markdown in the `posts` dire
 
 ### Installation options
 
-**Option one:** One-click deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/lokeshreddy007/next-netlify-blog&utm_source=github&utm_medium=blogstarter-cs&utm_campaign=devex)
-
-**Option two:** Manual clone
-
 1. Clone this repo: `git clone https://github.com/lokeshreddy007/next-netlify-blog`
 2. Navigate to the directory and run `npm run dev`
-3. Make your changes
-4. Connect to [Netlify](https://url.netlify.com/r1j6ybSYU) manually (the `netlify.toml` file is the one you'll need to make sure stays intact to make sure the export is done and pointed to the right stuff)
 
 ### Styling
 
