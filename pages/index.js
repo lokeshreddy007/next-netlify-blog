@@ -10,18 +10,19 @@ const Index = ({ posts, title, description, ...props }) => {
         <h1 className="title">Welcome to My Blog!</h1>
 
         <p className="description">
-          This is a simple blog built with Next, easily deployable on{" "}
-          <a href="https://url.netlify.com/r1j6ybSYU">Netlify</a>.
+          This is a simple blog built with{" "}
+          <a href="https://nextjs.org/" target="_blank">
+            Next.js
+          </a>{" "}
+          , easily deployable on{" "}
+          <a href="https://url.netlify.com/r1j6ybSYU " target="_blank">
+            Netlify
+          </a>
+          .
         </p>
         <main>
           <PostList posts={posts} />
         </main>
-        <p>
-          You can look at the repository for this project{" "}
-          <a href="https://github.com/lokeshreddy007/next-netlify-blog">here</a>
-          , and a tutorial on how to build it {` `}
-          <a href="https://url.netlify.com/ByVW0bCF8">here</a>.
-        </p>
       </Layout>
       <style jsx>{`
         .title {

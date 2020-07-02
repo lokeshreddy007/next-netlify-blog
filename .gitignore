@@ -6,3 +6,11 @@ node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+# https://www.ptsecurity.com/ww-en/analytics/web-application-vulnerabilities-statistics-2019/
+# https://asperbrothers.com/blog/laravel-security/
+# https://rietta.com/blog/bcrypt-not-sha-for-passwords
+# https://www.edgescan.com/edgescans-2020-vulnerability-stats-report-released/
+# https://www.webarxsecurity.com/website-hacking-statistics-2018-february/
+# https://software-security.sans.org/resources/swat
