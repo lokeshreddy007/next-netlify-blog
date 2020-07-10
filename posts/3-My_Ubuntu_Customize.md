@@ -62,7 +62,7 @@ sudo apt install numix-icon-theme-circle
     Application : Orchis-dark
     Cursor      : DMZ-White
     Icons       : Numix-Circle
-    Image       :
+    Image       : https://github.com/lokeshreddy007/next-netlify-blog/blob/master/Images/nikola-majksner-hXNGeAFOgT4-unsplash.jpg
 ```
 
 ## Apps
